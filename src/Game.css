@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+html,
+body {
+  text-shadow: 0.5px 0.5px 0.5px black;
+  height: 100%;
+  margin: 0;
+  font: 500 1rem 'Quicksand', sans-serif;
+  background-position: bottom;
+  font-size: 18px;
+}
+
+#root {
+  margin: 0px;
+  direction: ltr;
+  width: 100%;
+  height: 100%;
+
+}
+
+.game-board {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.singleGame {
+  margin: 20px;
+  padding: 1rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  font-size: 25px;
+  background-image: url("images/3-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.btnActions {
+  margin-bottom: 10px;
+}
+
+.btnAction {
+  border: 1px solid black;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: #079292;
+}
+h2{
+  text-decoration-line: underline;
+}
